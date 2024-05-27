@@ -9,7 +9,7 @@ navigator.geolocation.getCurrentPosition((location) => {
             <div class="card" style="width: 22rem;">
             <div class="card-body" id="card">
               <h5 class="card-title">Weather App</h5>
-              <input type="search" id="serach" placeholder="Search Cityf"><button id="serach-icon" onclick="changrCity()">🔍</button>
+              <input type="search" id="serach" placeholder="Search City"><button id="serach-icon" onclick="changrCity()">🔍</button>
               <h1>${res.name}</h1>
               <h2>${res.sys.country}</h2>
               <div class="display">
